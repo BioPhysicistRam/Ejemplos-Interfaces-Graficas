@@ -1,0 +1,31 @@
+<!DOCTYPE html>  <!-- Define el tipo de documento a HTML5 -->
+<html lang="en"> <!-- Abre la etiqueta raíz del documento y establece el idioma a inglés -->
+
+<head> <!-- Abre la sección de la cabeza del documento -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres del documento a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsive -->
+    <title>Hola Mundo</title> <!-- Establece el título de la página a "Hola Mundo" -->
+</head> <!-- Cierra la sección de la cabeza del documento -->
+
+<body> <!-- Abre la sección del cuerpo del documento -->
+
+<h1>Hola Mundo</h1> <!-- Muestra un encabezado que dice "Hola Mundo" -->
+
+<!-- Crea un botón que llama a la función printHello cuando se hace clic en él -->
+<button onclick="printHello()">Imprime Hola Mundo</button>
+
+<!-- Crea un botón que llama a la función closeWindow cuando se hace clic en él -->
+<button onclick="closeWindow()">Close</button>
+
+<script type="text/javascript"> <!-- Abre una sección de código JavaScript -->
+    function printHello() { // Define una función llamada printHello
+        console.log('Hola Mundo'); // Imprime "Hola Mundo" en la consola del navegador
+    }
+
+    function closeWindow() { // Define una función llamada closeWindow
+        window.close(); // Intenta cerrar la ventana del navegador
+    }
+</script> <!-- Cierra la sección de código JavaScript -->
+
+</body> <!-- Cierra la sección del cuerpo del documento -->
+</html> <!-- Cierra la etiqueta raíz del documento -->
